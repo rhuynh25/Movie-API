@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Similar Movies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Find Similar Movies</h1>
+        <form id="movieSearchForm">
+            <input type="text" id="movieSearchInput" placeholder="Enter movie title">
+            <button type="submit">Search</button>
+        </form>
+    </header>
+    
+    <main>
+        <section id="movieSearchResults" class="movies"></section>
+        <section id="similarMovies" class="movies">
+            <h2>Similar Movies</h2>
+            <div id="otherSimilarMovies"></div>
+        </section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
